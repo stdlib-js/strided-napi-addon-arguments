@@ -20,7 +20,7 @@ limitations under the License.
 
 # Add-on Arguments
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > C API for validating, extracting, and transforming (to native C types) function arguments provided to a strided array Node-API add-on interface.
 
@@ -217,10 +217,10 @@ The function returns a `napi_status` status code indicating success or failure (
     where
 
     -   `N` is the number of elements over which to iterate.
-    -   `id#` is an input strided array [data type][@stdlib/strided/dtypes] (enumerated integer).
+    -   `id#` is an input strided array [data type][@stdlib/strided/dtypes] (enumeration constant).
     -   `ia#` is an input strided array.
     -   `is#` is a corresponding input strided array stride (in units of elements).
-    -   `od#` is an output strided array [data type][@stdlib/strided/dtypes] (enumerated integer).
+    -   `od#` is an output strided array [data type][@stdlib/strided/dtypes] (enumeration constant).
     -   `oa#` is an output strided array.
     -   `os#` is a corresponding output strided array stride (in units of elements).
 
@@ -313,8 +313,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/strided-napi-addon-arguments/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/strided-napi-addon-arguments?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/strided-napi-addon-arguments.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/strided-napi-addon-arguments/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
