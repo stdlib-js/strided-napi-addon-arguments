@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/strided-napi-addon-arguments",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "C API for validating, extracting, and transforming (to native C types) function arguments provided to a strided array Node-API add-on interface.",
   "license": "Apache-2.0",
   "author": {
@@ -43,9 +43,9 @@
   "dependencies": {
     "@stdlib/math-base-assert-is-finite": "^0.2.2",
     "@stdlib/math-base-special-floor": "^0.2.3",
-    "@stdlib/ndarray-base-bytes-per-element": "^0.2.2",
+    "@stdlib/ndarray-base-bytes-per-element": "^0.3.0",
     "@stdlib/ndarray-base-napi-typedarray-type-to-dtype": "^0.2.2",
-    "@stdlib/utils-library-manifest": "^0.2.2"
+    "@stdlib/utils-library-manifest": "^0.2.3"
   },
   "devDependencies": {
     "@stdlib/array-float64": "^0.2.2",
@@ -84,11 +84,6 @@
     "arguments",
     "args"
   ],
-  "__stdlib__": {
-    "envs": {
-      "browser": false
-    }
-  },
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
